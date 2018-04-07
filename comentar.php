@@ -1,6 +1,6 @@
-<?php
+<?php carajo
 $comentario=strip_tags($_POST['comentario']);
-$usuario=strip_tags($_POST['usuario']);
+$usuario=strip_tags($_POST['usuario']); 
 
 if($comentario=="" or $usuario==""){	
 echo "<script type='text/javascript'>alert('Llene los campos');window.location.href='index.php'</script>";
